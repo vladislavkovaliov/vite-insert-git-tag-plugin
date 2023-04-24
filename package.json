@@ -1,0 +1,33 @@
+{
+  "name": "@vladislavkovaliov/vite-insert-git-tag-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "files": [
+    "dist",
+    "types",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "tsc:build": "rm -rf dist && rm -rf types && tsc -p tsconfig.build.json",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislavkovaliov/vite-insert-git-tag-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladislavkovaliov/vite-insert-git-tag-plugin/issues"
+  },
+  "homepage": "https://github.com/vladislavkovaliov/vite-insert-git-tag-plugin#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "vite": "^4.3.1"
+  }
+}
