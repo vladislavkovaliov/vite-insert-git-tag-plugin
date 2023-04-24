@@ -23,7 +23,7 @@ export function viteInsertVersion() {
         const { stdout } = await execAsync("git describe --tags --abbrev=0");
         const newHtml =
           html.substring(0, index! + len) +
-          `<meta content="${stdout.trim()}">` +
+          `<meta name=\"version\" content="${stdout.trim()}">` +
           html.substring(index! + len);
 
         return newHtml;
