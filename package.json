@@ -1,7 +1,7 @@
 {
   "name": "@vladislavkovaliov/vite-insert-git-tag-plugin",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Very simple vite plugin to insert tag version in the html head tag",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "files": [
@@ -19,9 +19,16 @@
     "type": "git",
     "url": "git+https://github.com/vladislavkovaliov/vite-insert-git-tag-plugin.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vite",
+    "pluign",
+    "git",
+    "html",
+    "tag",
+    "version"
+  ],
+  "author": "Vlad K. (v.v.kovaliov@gmail.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vladislavkovaliov/vite-insert-git-tag-plugin/issues"
   },
