@@ -1,1 +1,1 @@
-export { viteInsertVersion } from "./plugin/InsertGitTag";
+export { viteInsertGitTagPlugin } from "./plugin/viteInsertGitTagPlugin";

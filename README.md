@@ -1,6 +1,6 @@
 ## Overview
 
-The small plugin to find in the source codes hard-coded text, for instance, it could be `locahost`, IP, domains.
+The small plugin to insert the last tag from git tag history into meta tag of html.
 
 ## How to use
 
@@ -8,20 +8,8 @@ The small plugin to find in the source codes hard-coded text, for instance, it c
 
 export default defineConfig({
   plugins: [
-    viteResctrectedVariable({
-      restricted: {
-        type: "array",
-        values: ["html"],
-      },
-    }),
+    viteInsertGitTagPlugin(),
   ],
 });
 
 ```
-
-## Properties
-
-| Name   | Type           | Example                              |
-| ------ | -------------- | ------------------------------------ |
-| type   | {array,regex}  | `array` or `regex`                   |
-| values | {string,regex} | `["localhost"]` or ["/localhost/gi"] |

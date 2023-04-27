@@ -6,9 +6,9 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
-export function viteInsertVersion() {
+export function viteInsertGitTagPlugin() {
   return {
-    name: "vite-insert-version",
+    name: "vite-insert-git-tag-plugin",
 
     async transformIndexHtml(html: string) {
       const head = html.match("<head>");

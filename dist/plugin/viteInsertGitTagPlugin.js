@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.viteInsertVersion = void 0;
+exports.viteInsertGitTagPlugin = void 0;
 const child_process_1 = require("child_process");
 const util_1 = require("util");
 const execAsync = (0, util_1.promisify)(child_process_1.exec);
-function viteInsertVersion() {
+function viteInsertGitTagPlugin() {
     return {
-        name: "vite-insert-version",
+        name: "vite-insert-git-tag-plugin",
         async transformIndexHtml(html) {
             const head = html.match("<head>");
             const len = "<head>".length;
@@ -28,4 +28,4 @@ function viteInsertVersion() {
         },
     };
 }
-exports.viteInsertVersion = viteInsertVersion;
+exports.viteInsertGitTagPlugin = viteInsertGitTagPlugin;
