@@ -1,6 +1,6 @@
 {
   "name": "@vladislavkovaliov/vite-insert-git-tag-plugin",
-  "version": "1.1.2",
+  "version": "1.1.8",
   "description": "Very simple vite plugin to insert tag version in the html head tag",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
