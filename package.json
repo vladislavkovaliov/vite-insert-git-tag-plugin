@@ -36,5 +36,11 @@
   "dependencies": {
     "ts-node": "^10.9.1",
     "vite": "^4.3.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "semantic-release": "^21.0.2"
   }
 }
