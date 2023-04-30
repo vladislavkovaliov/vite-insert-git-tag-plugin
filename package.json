@@ -27,6 +27,9 @@
     "tag",
     "version"
   ],
+  "publishConfig": {
+    "@vladislavkovaliov:registry": "https://npm.pkg.github.com"
+  },
   "author": "Vlad K. (v.v.kovaliov@gmail.com)",
   "license": "MIT",
   "bugs": {
